@@ -15,7 +15,7 @@ if (-not $name) {
 $body = "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
 
 if ($name) {
-    $body = "Hello, $name. Today is $date and this HTTP triggered function executed successfully. Jesusiñños"
+    $body = "Hello, $name. Today is $date and this HTTP triggered function executed successfully. Jesusiñños 2"
 }
 
 # Associate values to output bindings by calling 'Push-OutputBinding'.
